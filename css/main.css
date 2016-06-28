@@ -235,15 +235,15 @@ section.price .box input.text{
 }
 
 .finPrice b{
-  margin-top: 12px;
+  margin-top: 18px;
 }
 
 .orangeText{
-  font-size: 28px;
+  font-size: 38px;
   color:  #f97e7e;
   font-weight: bolder;
   margin-left: 12px;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 .btn{
@@ -268,14 +268,14 @@ section.price .box input.text{
 
 .pay b{
   display: block;
-  font-size: 18px;
-  margin-top: 33px;
-  margin-bottom: 30px;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .pay p{
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 36px;
   margin-bottom: 36px;
 }
@@ -286,15 +286,122 @@ section.price .box input.text{
 
 .pay .question b{
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 25px;
 }
 
 .pay .question p{
   padding-left: 15px;
   margin-top: 25px;
-  font-size: 14px;
-  margin-bottom: 0;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.nal{
+  margin-top: 30px;
+}
+
+.statistic{
+  padding-top: 50px;
+  height: 375px;
+  background-image: url(../img/bgstat.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.circle{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  color: while;
+  border: 7px solid white;
+  margin: auto;
+}
+
+.circle p{
+  margin-top: 38px;
+  color: white;
+  font-size: 42px;
+  text-align: center;
+}
+
+.stat{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.plane{
+  margin-top: 70px;
+  width: 100%;
+  height: 450px;
+  padding-top: 50px;
+  background-image: url(../img/planebg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.centred{
+  display: block;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.plane b{
+  text-align: center;
+  font-size: 26px;
+  color:  #444444;
+}
+
+.plane p{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.cont b{
+  font-size: 22px;
+  color: black;
+}
+
+.cont{
+  margin-top: 50px;
+  display: flex;
+}
+
+.cont div{
+  margin-left: 20px;
+}
+
+.cont p{
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  color: #525252;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.cont img{
+  margin-top: 5px;
+  display: block;
+  height: 100%;
+  width: 35px;
+}
+
+.cont .mail{
+  width: 24px;
+}
+
+.cont .p-mail{
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.vti{
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 section.team .member{
@@ -313,7 +420,36 @@ section.team .member img{
 	margin-bottom: 40px;
 	border-radius: 50%;
 }
+section.team .member img:hover{
+	background-color: #474747 !important;
+}
 section.team .member span{
 	text-align: center;
 	width: 100%;
+}
+.no-padding{
+	padding:0;
+}
+section.statistic .no-padding .col-lg-3{
+	padding: 0;
+}
+section.reviews{
+	margin-top: 100px;
+}
+section.reviews .content, section.team .content{
+	margin-top: 50px;
+}
+section.reviews .content{
+	text-align: center;
+}
+section.reviews img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+section.reviews .content h4{
+	font: 22px Roboto-Medium;
+}
+section.reviews .content p{
+	font: 18px Roboto;
 }
