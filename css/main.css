@@ -1,7 +1,7 @@
  @font-face {
 	font-family: Roboto-Medium; /* Гарнитура шрифта */
 	src: url(../fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
-} 
+}
 @font-face {
 	font-family: Roboto; /* Гарнитура шрифта */
 	src: url(../fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
@@ -228,4 +228,71 @@ section.price .box div.text{
 }
 section.price .box input.text{
 	padding: 4px 2px;
+}
+
+.finPrice{
+  display: flex;
+}
+
+.finPrice b{
+  margin-top: 12px;
+}
+
+.orangeText{
+  font-size: 28px;
+  color:  #f97e7e;
+  font-weight: bolder;
+  margin-left: 12px;
+  margin-top: 15px;
+}
+
+.btn{
+  height: 40px;
+  width: 160px;
+  background-color: #46b0dc;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.price{
+  margin-bottom: 40px;
+}
+
+.pay{
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+
+.pay b{
+  display: block;
+  font-size: 18px;
+  margin-top: 33px;
+  margin-bottom: 30px;
+}
+
+.pay p{
+  display: block;
+  font-size: 14px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.question{
+  margin-top: 33px;
+}
+
+.pay .question b{
+  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.pay .question p{
+  padding-left: 15px;
+  margin-top: 25px;
+  font-size: 14px;
+  margin-bottom: 0;
 }
