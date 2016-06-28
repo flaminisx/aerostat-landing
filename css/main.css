@@ -296,3 +296,24 @@ section.price .box input.text{
   font-size: 14px;
   margin-bottom: 0;
 }
+
+section.team .member{
+	width: 100%;
+	text-align: center;
+}
+section.team .member .name{
+	font:22px Roboto-Medium;
+}
+section.team .member .who{
+	font:18px Roboto-Medium;
+}
+section.team .member img{
+	width: 166px;
+	height: 166px;
+	margin-bottom: 40px;
+	border-radius: 50%;
+}
+section.team .member span{
+	text-align: center;
+	width: 100%;
+}
