@@ -235,7 +235,7 @@ section.price .box input.text{
 }
 
 .finPrice b{
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .orangeText{
@@ -243,7 +243,7 @@ section.price .box input.text{
   color:  #f97e7e;
   font-weight: bolder;
   margin-left: 12px;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 .btn{
@@ -268,14 +268,14 @@ section.price .box input.text{
 
 .pay b{
   display: block;
-  font-size: 18px;
-  margin-top: 33px;
-  margin-bottom: 30px;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .pay p{
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 36px;
   margin-bottom: 36px;
 }
@@ -286,13 +286,47 @@ section.price .box input.text{
 
 .pay .question b{
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 25px;
 }
 
 .pay .question p{
   padding-left: 15px;
   margin-top: 25px;
-  font-size: 14px;
-  margin-bottom: 0;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.nal{
+  margin-top: 30px;
+}
+
+.statistic{
+  padding-top: 70px;
+  height: 375px;
+  background-image: url(../img/bgstat.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.circle{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  color: while;
+  border: 7px solid white;
+  margin: auto;
+}
+
+.circle p{
+  margin-top: 38px;
+  color: white;
+  font-size: 42px;
+  text-align: center;
+}
+
+.stat{
+  color: white;
+  text-align: center;
+  font-size: 24px;
 }
