@@ -5,7 +5,7 @@ $('.slider').bxSlider({
   prevText: '',
   minSlides: 3,
   maxSlides: 4,
+  infiniteLoop: false,
   slideWidth: 218,
   slideMargin: 15,
-  autoControls:false
 })
